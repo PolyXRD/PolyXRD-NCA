@@ -1,0 +1,227 @@
+[
+  {
+    "file": "positive/nca/layered_anchor_real.txt",
+    "category": "nca",
+    "origin": "real",
+    "source": "XRData/csuHJW/txt/Data040：NCM：811_raw.txt",
+    "note": "真实层状 R-3m 实样（NCM811）。**家族数据根无 NCA 实测谱**，本样本作为同构锚点：NCA 与 NCM 同为 #166、晶胞相差 <0.2%，实验室 XRD 不可区分",
+    "expect_ok": true,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "negative/spinel/alcoo_650c_real.txt",
+    "category": "spinel",
+    "origin": "real",
+    "source": "XRData/csuHJW/data005：AlCoO-650C.txt",
+    "note": "AlCoO₂ 尖晶石",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/spinel/alcoo_750c_real.txt",
+    "category": "spinel",
+    "origin": "real",
+    "source": "XRData/csuHJW/data004：AlCoO-750C.txt",
+    "note": "AlCoO₂ 尖晶石",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/spinel/magnetite_iucr.txt",
+    "category": "spinel",
+    "origin": "real",
+    "source": "XRData/IUCr/MAGNETIT.RAW",
+    "note": "Fe₃O₄ 尖晶石",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/lfp/lifepo4_smz.txt",
+    "category": "lfp",
+    "origin": "real",
+    "source": "XRData/smz geshi/LiFePO4#01##20250520-100220_100.txt",
+    "note": "LiFePO₄ 橄榄石 Pnma",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/lfp/fepo4_smz.txt",
+    "category": "lfp",
+    "origin": "real",
+    "source": "XRData/smz geshi/FePO4#01##20250520-132913_100.txt",
+    "note": "FePO₄ 橄榄石型",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/rocksalt/fluorite_iucr.txt",
+    "category": "rocksalt",
+    "origin": "real",
+    "source": "XRData/IUCr/FLUORITE.RAW",
+    "note": "CaF₂，Fm-3m 萤石型",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/precursor/ni_oh2_csu.txt",
+    "category": "precursor",
+    "origin": "real",
+    "source": "XRData/csuHJW/Data043/Data043：Ni(OH)2.txt",
+    "note": "真实三元氢氧化物前驱体（Ni:Co:Mn=5:3:2，随附 Maud 精修 a=3.130435/c=4.619966）。★ 本工具能正确指认为 precursor_hydroxide —— 因为 NCA 候选池含 NCA 专属氢氧化物（precursor_NCA_OH，同一 P-3m1 骨架）；该样本 `ok=False`（前驱体不是可精修的 NCA 成品），kind 判对是诊断价值所在",
+    "expect_ok": false,
+    "expect_kind": "precursor_hydroxide"
+  },
+  {
+    "file": "negative/other/anatase_csu.txt",
+    "category": "other",
+    "origin": "real",
+    "source": "XRData/csuHJW/txt/Data033：单相锐钛矿.txt",
+    "note": "单相锐钛矿",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/other/y2o3_csu.txt",
+    "category": "other",
+    "origin": "real",
+    "source": "XRData/csuHJW/txt/Data038：Y2O3.txt",
+    "note": "Y₂O₃ 方铍石型（立方）",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/other/zno_caco3_csu.txt",
+    "category": "other",
+    "origin": "real",
+    "source": "XRData/csuHJW/Data041/Data041：ZnO+CaCO3.txt",
+    "note": "ZnO + CaCO₃（CaCO₃ 为 R-3c）",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/other/limno2_si_csu.txt",
+    "category": "other",
+    "origin": "real",
+    "source": "XRData/csuHJW/txt/Data030：LiMnO2+Si.txt",
+    "note": "正交 LiMnO₂ + Si",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "negative/other/zrb_zrb2_csu.txt",
+    "category": "other",
+    "origin": "real",
+    "source": "XRData/csuHJW/txt/Data031：ZrB-ZrB2.txt",
+    "note": "六方硼化物",
+    "expect_ok": false,
+    "expect_kind": "other"
+  },
+  {
+    "file": "positive/nca/nca_80_15_05_syn.txt",
+    "category": "nca",
+    "origin": "synthetic",
+    "source": "主配比 NCA 80/15/5（派生自 COD 1520789）合成",
+    "note": "主配比 NCA 80/15/5（派生自 COD 1520789）合成",
+    "expect_ok": true,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "positive/nca/nca_82_13_05_syn.txt",
+    "category": "nca",
+    "origin": "synthetic",
+    "source": "NCA 82/13/5 合成",
+    "note": "NCA 82/13/5 合成",
+    "expect_ok": true,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "positive/nca/nca_85_10_05_syn.txt",
+    "category": "nca",
+    "origin": "synthetic",
+    "source": "NCA 85/10/5 合成",
+    "note": "NCA 85/10/5 合成",
+    "expect_ok": true,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "positive/nca/nca_90_05_05_syn.txt",
+    "category": "nca",
+    "origin": "synthetic",
+    "source": "高镍 NCA 90/5/5 合成",
+    "note": "高镍 NCA 90/5/5 合成",
+    "expect_ok": true,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "positive/nca/linio2_syn.txt",
+    "category": "nca",
+    "origin": "synthetic",
+    "source": "LiNiO₂ 端元（COD 1533770）合成，含 0.05% 应变",
+    "note": "LiNiO₂ 端元（COD 1533770）合成，含 0.05% 应变",
+    "expect_ok": true,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "negative/lco/lco_d120nm_syn.txt",
+    "category": "lco",
+    "origin": "synthetic",
+    "source": "LiCoO₂（COD 1533825）合成 —— 层状 R-3m 但 a 不在 NCA 族区间",
+    "note": "LiCoO₂（COD 1533825）合成 —— 层状 R-3m 但 a 不在 NCA 族区间",
+    "expect_ok": false,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "negative/lco/lco_d200nm_syn.txt",
+    "category": "lco",
+    "origin": "synthetic",
+    "source": "LiCoO₂ 合成（另一晶粒尺寸）",
+    "note": "LiCoO₂ 合成（另一晶粒尺寸）",
+    "expect_ok": false,
+    "expect_kind": "nca"
+  },
+  {
+    "file": "negative/rocksalt/nio_d80nm_syn.txt",
+    "category": "rocksalt",
+    "origin": "synthetic",
+    "source": "岩盐 NiO (Fm-3m, a=4.177) 合成 —— NCA 表面重构标志相",
+    "note": "岩盐 NiO (Fm-3m, a=4.177) 合成 —— NCA 表面重构标志相",
+    "expect_ok": false,
+    "expect_kind": "rocksalt"
+  },
+  {
+    "file": "negative/precursor/nico3_d150nm_syn.txt",
+    "category": "precursor",
+    "origin": "synthetic",
+    "source": "碳酸盐前驱体骨架（COD 1548823，R-3c）合成",
+    "note": "碳酸盐前驱体骨架（COD 1548823，R-3c）合成",
+    "expect_ok": false,
+    "expect_kind": "precursor_carbonate"
+  },
+  {
+    "file": "negative/precursor/nih2_d150nm_syn.txt",
+    "category": "precursor",
+    "origin": "synthetic",
+    "source": "氢氧化物前驱体骨架（COD 1548811，P-3m1）合成",
+    "note": "氢氧化物前驱体骨架（COD 1548811，P-3m1）合成",
+    "expect_ok": false,
+    "expect_kind": "precursor_hydroxide"
+  },
+  {
+    "file": "negative/precursor/nca_oh_d150nm_syn.txt",
+    "category": "precursor",
+    "origin": "synthetic",
+    "source": "NCA 氢氧化物前驱体（80:15:5）合成",
+    "note": "NCA 氢氧化物前驱体（80:15:5）合成",
+    "expect_ok": false,
+    "expect_kind": "precursor_hydroxide"
+  },
+  {
+    "file": "negative/al_phase/lialo2_d120nm_syn.txt",
+    "category": "al_phase",
+    "origin": "synthetic",
+    "source": "γ-LiAlO₂（COD 4002658，四方 P4₁2₁2）合成 —— 铝偏析副相",
+    "note": "γ-LiAlO₂（COD 4002658，四方 P4₁2₁2）合成 —— 铝偏析副相",
+    "expect_ok": false,
+    "expect_kind": "al_phase"
+  }
+]
